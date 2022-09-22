@@ -1,0 +1,120 @@
+body {
+    background-color: #706969;
+}
+
+#game-title {
+    color:#2d2d2d;
+    font-size: 80px;
+}
+
+#best-score {
+    border-radius: 5px;
+    background-color: #2d2d2d;
+    padding: 10px;
+    text-align: center;
+}
+
+#score-board {
+    border-radius: 5px;
+    background-color: #2d2d2d;
+    padding: 10px;
+    text-align: center;
+}
+
+#moves {
+    border-radius: 5px;
+    background-color: #2d2d2d;
+    padding: 10px;
+    text-align: center;
+}
+
+#game-over {
+    color:white;
+    font-size: 80px;
+    text-align: center;
+}
+
+.text {
+    color:#706969;
+}
+
+.game-header {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-item {
+    color: white;
+}
+
+.game-content {
+    position: absolute;
+    height: 1000x;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    margin: -450px 0 0 -300px;
+}
+
+.grid-container {
+    border-radius: 5px;
+    height: 520px;
+    width: 520px;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    background-color: #2d2d2d;
+    padding: 10px;
+    margin: -60px 0 0 -0px;
+}
+
+.grid-item {
+    border-radius: 5px;
+    height: 120px;
+    width: 120px;
+    color: #2d2d2d;
+    background-color: rgba(99, 99, 99, 0.8);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key-container {
+    border-radius: 5px;
+    height: 130px;
+    width: 130px;
+    display: grid;
+    row-gap: 5px;
+    column-gap: 5px;
+    grid-template-columns: auto auto auto;
+    background-color: #2d2d2d;
+    padding: 10px;
+}
+
+.key-item {
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(99, 99, 99, 0.8);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.invisible {
+    visibility: hidden;
+}
